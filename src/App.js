@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Aside from "./components/Aside";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -131,11 +132,8 @@ function App() {
           },
         ]}
       />
-      <footer>
-        <p id="copyright" className="copyright text">
-          Copyright &copy; 2027 by The Code Magazine.
-        </p>
-      </footer>
+
+      <Footer copyright={"Copyright © 2027 by The Code Magazine."} />
     </div>
   );
 }
