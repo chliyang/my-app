@@ -1,19 +1,21 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="container">
-      <header className="main-header">
-        <h1>📘 The Code Magazine</h1>
-
-        <nav>
-          <a href="blog.html">Blog</a>
-          <a href="#">Challenges</a>
-          <a href="#">Flexbox</a>
-          <a href="#">CSS Grid</a>
-        </nav>
-      </header>
-
+      <Header
+        title={"📘 The Code Magazine"}
+        navList={[
+          { href: "blog.html", content: "Blog" },
+          { href: "#", content: "Challenges" },
+          {
+            href: "#",
+            content: "Flexbox",
+          },
+          { href: "#", content: "CSS Grid" },
+        ]}
+      />
       <article>
         <header className="post-header">
           <h2>The Basic Language of the Web: HTML</h2>
@@ -73,10 +75,10 @@ function App() {
 
         <p>
           You can learn more at
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          >MDN Web Docs</a
-          >.
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            MDN Web Docs
+          </a>
+          .
         </p>
 
         <h3>Why should you learn HTML?</h3>
