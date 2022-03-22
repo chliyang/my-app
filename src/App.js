@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Aside from "./components/Aside";
 
 function App() {
   return (
@@ -104,43 +105,32 @@ function App() {
         <p>Hopefully you learned something new here. See you next time!</p>
       </article>
 
-      <aside>
-        <h4>Related posts</h4>
-
-        <ul className="related">
-          <li>
-            <img
-              src={require("./img/laura-jones.jpg")}
-              alt="Person programming"
-              width="75"
-              height="75"
-            />
-            <a href="#">How to Learn Web Development</a>
-            <p className="related-author">By Jonas Schmedtmann</p>
-          </li>
-          <li>
-            <img
-              src={require("./img/related-2.jpg")}
-              alt="Lightning"
-              width="75"
-              height="75"
-            />
-            <a href="#">The Unknown Powers of CSS</a>
-            <p className="related-author">By Jim Dillon</p>
-          </li>
-          <li>
-            <img
-              src={require("./img/related-3.jpg")}
-              alt="JavaScript code on a screen"
-              width="75"
-              height="75"
-            />
-            <a href="#">Why JavaScript is Awesome</a>
-            <p className="related-author">By Matilda</p>
-          </li>
-        </ul>
-      </aside>
-
+      <Aside
+        title={"Related posts"}
+        postList={[
+          {
+            imgSrc: "related-1.jpg",
+            imgAlt: "Person programming",
+            linkHref: "#",
+            linkContent: "How to Learn Web Development",
+            pContent: "By Jonas Schmedtmann",
+          },
+          {
+            imgSrc: "related-2.jpg",
+            imgAlt: "Lightning",
+            linkHref: "#",
+            linkContent: "The Unknown Powers of CSS",
+            pContent: "By Jim Dillon",
+          },
+          {
+            imgSrc: "related-3.jpg",
+            imgAlt: "JavaScript code on a screen",
+            linkHref: "#",
+            linkContent: "Why JavaScript is Awesome",
+            pContent: "By Matilda",
+          },
+        ]}
+      />
       <footer>
         <p id="copyright" className="copyright text">
           Copyright &copy; 2027 by The Code Magazine.
