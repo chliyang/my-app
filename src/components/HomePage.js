@@ -8,6 +8,7 @@ function Home() {
       <nav>
         <Link to="/magazine">Magazine</Link>
         <Link to="/flex-layout">FlexLayout</Link>
+        <Link to="/grid-layout">GridLayout</Link>
       </nav>
       <></>
     </div>
