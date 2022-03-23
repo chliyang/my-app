@@ -31,6 +31,15 @@
   margin: 20px;
 }
 
+.layout-4 {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  margin: 20px;
+}
+
 .box-1 {
   background-color: aqua;
   border: white solid 2px;
