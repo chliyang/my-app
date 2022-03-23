@@ -6,6 +6,7 @@ const GridLayout = () => {
     <div className="grid-container">
       <GridBoxes className={"layout-1"} />
       <GridBoxes className={"layout-2"} />
+      <GridBoxes className={"layout-3"} />
     </div>
   );
 };

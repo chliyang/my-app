@@ -1,6 +1,7 @@
 .grid-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 800px;
   color: white;
   font-size: 18px;
@@ -10,14 +11,24 @@
 }
 
 .layout-1 {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 80px 80px 80px;
   grid-template-rows: 80px 80px 80px;
+  margin: 20px;
 }
 
 .layout-2 {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: repeat(2, 100px 20px 60px);
+  margin: 20px;
+}
+
+.layout-3{
+  display: grid;
+  width: 600px;
+  height: 200px;
+  grid-template-columns: repeat(auto-fill, 100px);
+  margin: 20px;
 }
 
 .box-1 {
