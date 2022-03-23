@@ -15,6 +15,25 @@
   flex-direction: row-reverse;
 }
 
+.column{
+  display: flex;
+  justify-content: space-between;
+  height: 700px;
+  margin-top: 40px;
+}
+
+.layout3 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.layout4 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+}
+
 .title{
   color: #1098ad;
   font-size: 20px;
