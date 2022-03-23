@@ -3,8 +3,13 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
-      <Link to="/magazine">Magazine</Link>
+    <div className="container">
+      <h3>Practice Home Page</h3>
+      <nav>
+        <Link to="/magazine">Magazine</Link>
+        <Link to="/flex-layout">FlexLayout</Link>
+      </nav>
+      <></>
     </div>
   );
 }
