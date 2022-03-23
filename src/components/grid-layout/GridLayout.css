@@ -1,7 +1,86 @@
-.grid-container{
+.grid-container {
   width: 800px;
+  color: white;
   font-size: 18px;
   font-weight: bolder;
   margin-left: auto;
   margin-right: auto;
+}
+
+.layout-1 {
+  display: inline-grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
+}
+
+.box-1 {
+  background-color: aqua;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  background-color: #ffe70e;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-3 {
+  background-color: bisque;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-4 {
+  background-color: #9d67ce;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-5 {
+  background-color: coral;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-6 {
+  background-color: chartreuse;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-7 {
+  background-color: deeppink;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-8 {
+  background-color: lightskyblue;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-9 {
+  background-color: darkseagreen;
+  border: white solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
