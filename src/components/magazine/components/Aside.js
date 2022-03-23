@@ -8,7 +8,7 @@ const Aside = (props) => {
         {props.postList.map((post, index) => (
           <li key={index}>
             <img
-              src={require("../img/" + post.imgSrc)}
+              src={require("../../../img/" + post.imgSrc)}
               alt={post.imgAlt}
               width="75px"
               height="75px"
