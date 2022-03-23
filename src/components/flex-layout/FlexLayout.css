@@ -9,6 +9,12 @@
   justify-content: space-around;
 }
 
+.layout2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
 .title{
   color: #1098ad;
   font-size: 20px;

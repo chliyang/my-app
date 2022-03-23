@@ -5,6 +5,7 @@ const FlexLayout = () => {
   return (
     <div className="flex-container">
       <Boxes title={"水平正序排列"} className={"layout1"} />
+      <Boxes title={"水平逆序排列"} className={"layout2"} />
     </div>
   );
 };
