@@ -1,5 +1,6 @@
 import "./GridLayout.css";
 import GridBoxes from "./components/GridBoxes";
+import GridBoxesFour from "./components/GridBoxesFour";
 
 const GridLayout = () => {
   return (
@@ -8,6 +9,7 @@ const GridLayout = () => {
       <GridBoxes className={"layout-2"} />
       <GridBoxes className={"layout-3"} />
       <GridBoxes className={"layout-4"} />
+      <GridBoxesFour className={"layout-5"} />
     </div>
   );
 };
