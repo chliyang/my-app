@@ -1,7 +1,7 @@
-import "./Magazine.css";
 import Header from "./components/Header";
 import Aside from "./components/Aside";
 import Footer from "./components/Footer";
+import "./Magazine.scss";
 
 function Magazine() {
   return (
