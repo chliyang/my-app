@@ -4,6 +4,7 @@ import Home from "./components/HomePage";
 import Magazine from "./components/magazine/Magazine";
 import FlexLayout from "./components/flex-layout/FlexLayout";
 import GridLayout from "./components/grid-layout/GridLayout";
+import ReactBootstrap from "./components/react-bootstrap/ReactBootstrap";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="magazine" element={<Magazine />} />
         <Route path="flex-layout" element={<FlexLayout />} />
         <Route path="grid-layout" element={<GridLayout />} />
+        <Route path="react-bootstrap" element={<ReactBootstrap />} />
       </Routes>
     </div>
   );

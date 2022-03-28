@@ -40,7 +40,7 @@ function Magazine() {
             height="200"
             className="post-img"
           />
-          <button>❤️ Like</button>
+          <button className="like-button">❤️ Like</button>
         </header>
 
         <p>
