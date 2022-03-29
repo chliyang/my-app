@@ -1,10 +1,12 @@
-const GridBoxesFour = (props) => {
+import styles from "../GridLayout.module.scss";
+
+const GridBoxesFour = () => {
   return (
-    <div className={props.className}>
-      <div className="box-1">1</div>
-      <div className="box-2">2</div>
-      <div className="box-3">3</div>
-      <div className="box-4">4</div>
+    <div className={styles.layout5}>
+      <div className={styles.box1}>1</div>
+      <div className={styles.box2}>2</div>
+      <div className={styles.box3}>3</div>
+      <div className={styles.box4}>4</div>
     </div>
   );
 };
