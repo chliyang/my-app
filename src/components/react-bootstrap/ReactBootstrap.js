@@ -1,4 +1,5 @@
-import "./ReactBootstrap.module.scss";
+import styles from "./ReactBootstrap.module.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
 import { Button, Col, FloatingLabel, Form, Row } from "react-bootstrap";
 
@@ -7,8 +8,8 @@ const ReactBootstrap = () => {
     <ThemeProvider
       breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
     >
-      <div className="container">
-        <h3 className="form-title">
+      <div className={styles.container}>
+        <h3 className={styles.title}>
           This is a practice form created by Bootstrap
         </h3>
         <Form>
