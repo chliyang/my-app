@@ -1,4 +1,4 @@
-import "./FlexLayout.css";
+import "./FlexLayout.module.css";
 import Boxes from "./components/Boxes";
 
 const FlexLayout = () => {

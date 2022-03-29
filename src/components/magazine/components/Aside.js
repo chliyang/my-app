@@ -1,10 +1,10 @@
-const Aside = (props) => {
-  console.log(props.postList[0].imgSrc);
+import styles from "../Magazine.module.scss";
 
+const Aside = (props) => {
   return (
     <aside>
       <h4>{props.title}</h4>
-      <ul className="related">
+      <ul className={styles.related}>
         {props.postList.map((post, index) => (
           <li key={index}>
             <img
@@ -15,7 +15,7 @@ const Aside = (props) => {
             />
 
             <a href={post.linkHref}>{post.linkContent}</a>
-            <p className="related-author">{post.pContent}</p>
+            <p className={styles.relatedAuthor}>{post.pContent}</p>
           </li>
         ))}
       </ul>

@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
 }
 
-.main-header {
+.header {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
@@ -32,7 +32,7 @@ article {
   margin-bottom: 60px;
 }
 
-.post-header {
+.post {
   margin-bottom: 40px;
 }
 
@@ -50,8 +50,9 @@ h3 {
   color: #1098ad;
 }
 
-h1 {
+.headerOne {
   font-size: 26px;
+  color: #1098ad;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -132,7 +133,7 @@ a:visited {
 a:hover {
   color: orangered;
   font-weight: bold;
-  text-decoration: underline orangered;
+  //text-decoration: underline orangered;
 }
 
 a:active {
@@ -140,7 +141,7 @@ a:active {
   font-style: italic;
 }
 
-.post-img {
+.img {
   width: 100%;
   height: auto;
 }
@@ -155,7 +156,7 @@ nav a:link:last-child {
   margin-right: 0;
 }
 
-.like-button {
+.like {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;

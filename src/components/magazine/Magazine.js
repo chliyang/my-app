@@ -1,11 +1,11 @@
 import Header from "./components/Header";
 import Aside from "./components/Aside";
 import Footer from "./components/Footer";
-import "./Magazine.scss";
+import styles from "./Magazine.module.scss";
 
 function Magazine() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Header
         title={"📘 The Code Magazine"}
         navList={[
@@ -19,7 +19,7 @@ function Magazine() {
         ]}
       />
       <article>
-        <header className="post-header">
+        <header className={styles.post}>
           <h2>The Basic Language of the Web: HTML</h2>
 
           <img
@@ -29,7 +29,7 @@ function Magazine() {
             width="50"
           />
 
-          <p id="author">
+          <p id={styles["author"]}>
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
 
@@ -38,9 +38,9 @@ function Magazine() {
             alt="HTML code on a screen"
             width="500"
             height="200"
-            className="post-img"
+            className={styles.img}
           />
-          <button className="like-button">❤️ Like</button>
+          <button className={styles.like}>❤️ Like</button>
         </header>
 
         <p>
@@ -70,7 +70,7 @@ function Magazine() {
         <p>In HTML, each element is made up of 3 parts:</p>
 
         <ol>
-          <li className="first-li">The opening tag</li>
+          <li>The opening tag</li>
           <li>The closing tag</li>
           <li>The actual element</li>
         </ol>
@@ -91,12 +91,10 @@ function Magazine() {
         </p>
 
         <ul>
-          <li className="first-li">
-            To be able to use the fundamental web dev language
-          </li>
+          <li>To be able to use the fundamental web dev language</li>
           <li>
             To hand-craft beautiful websites instead of relying on tools like
-            Worpress or Wix
+            Wordpress or Wix
           </li>
           <li>To build web applications</li>
           <li>To impress friends</li>

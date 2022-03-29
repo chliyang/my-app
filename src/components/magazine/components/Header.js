@@ -1,13 +1,15 @@
+import styles from "../Magazine.module.scss";
+
 const Header = (props) => {
   return (
-    <header className="main-header">
-      <h1>{props.title}</h1>
+    <div className={styles.header}>
+      <h1 className={styles.headerOne}>{props.title}</h1>
       <nav>
         {props.navList.map((navItem) => (
           <a href={navItem.href}>{navItem.content}</a>
         ))}
       </nav>
-    </header>
+    </div>
   );
 };
 

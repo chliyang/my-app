@@ -1,4 +1,4 @@
-import "./GridLayout.css";
+import "./GridLayout.module.css";
 import GridBoxes from "./components/GridBoxes";
 import GridBoxesFour from "./components/GridBoxesFour";
 

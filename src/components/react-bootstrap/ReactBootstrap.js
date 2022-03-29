@@ -1,4 +1,4 @@
-import "./ReactBootstrap.scss";
+import "./ReactBootstrap.module.scss";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
 import { Button, Col, FloatingLabel, Form, Row } from "react-bootstrap";
 
