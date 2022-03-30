@@ -11,7 +11,6 @@ function Home() {
         <Link to="/flex-layout">FlexLayout</Link>
         <Link to="/grid-layout">GridLayout</Link>
         <Link to="/react-bootstrap">React Bootstrap</Link>
-        <Link to="/react-antd">React Antd</Link>
       </nav>
       <></>
     </div>
