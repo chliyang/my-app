@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./magazine/Magazine.module.scss";
+import * as config from "../../package.json";
 
 function Home() {
   return (
@@ -11,6 +12,8 @@ function Home() {
         <Link to="/flex-layout">FlexLayout</Link>
         <Link to="/grid-layout">GridLayout</Link>
         <Link to="/react-bootstrap">React Bootstrap</Link>
+        <Link to="/animation">Animation</Link>
+        <div>{config.version}</div>
       </nav>
       <></>
     </div>
